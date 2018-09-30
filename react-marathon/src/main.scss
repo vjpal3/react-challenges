@@ -1,0 +1,45 @@
+$blue: #358DF7;
+$grey: #E7E5E7;
+$light-grey: #F8F8F6;
+$yellow: #FBE08C;
+
+div {
+  color: $blue;
+}
+
+.app {
+  margin: 25px auto;
+  width: 75%;
+}
+
+.selected {
+  background-color: $yellow;
+  width: 100%
+}
+
+.title {
+  text-align: center;
+}
+
+/* YOUR STYLING HERE */
+// .PlaylistCollection {
+//   background-color: $light-grey;
+//   height: 200px;
+//   border-style: solid;
+//   border-color: $grey;
+//   padding: 0;
+// }
+//
+// .SongList {
+//   background-color: $light-grey;
+//   height: 200px;
+//   border-style: solid;
+//   border-color: $grey;
+// }
+//
+// .SelectedSong {
+//   background-color: $light-grey;
+//   height: 200px;
+//   border-style: solid;
+//   border-color: $grey;
+// }
