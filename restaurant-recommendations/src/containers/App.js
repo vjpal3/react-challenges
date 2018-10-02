@@ -6,6 +6,8 @@ import Reviews from '../components/Reviews'
 import restaurants from '../constants/restaurants'
 import reviews from '../constants/reviews'
 
+import ReviewsFormsContainer from './ReviewsFormsContainer';
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -15,6 +17,7 @@ class App extends Component {
       selectedId: restaurants[0].id
     }
     this.restaurantClick = this.restaurantClick.bind(this)
+    this.addReview = this.addReview.bind(this);
   }
 
   restaurantClick(event) {
@@ -28,13 +31,19 @@ class App extends Component {
     )
   }
 
+  // code for appending a review
+  addReview(newReview) {
+   this.setState({reviews: [...this.state.reviews, newReview]})
+  }
+
   render() {
     let restaurantComponents = restaurants.map((restaurant) => {
       return (
         <Restaurant key={restaurant.id}
           data={restaurant}
           isSelected={this.state.selectedId === restaurant.id}
-          handleClick={this.restaurantClick}/>
+          handleClick={this.restaurantClick}
+        />
       )
     })
 
@@ -52,6 +61,11 @@ class App extends Component {
           <div className="reviews small-9 columns">
             <h3>Reviews for {this.selectedRestaurant().name}</h3>
             <Reviews data={relevantReviews} />
+            <h3>Write a Review:</h3>
+            <ReviewsFormsContainer
+              restaurantId={this.selectedRestaurant().id}
+              addReview={this.addReview}
+            />
           </div>
         </div>
       </div>
