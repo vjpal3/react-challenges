@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is Launch Academy?",
+    "answer": "Launch Academy is a 10-week, immersive bootcamp taking eager learners with little to no coding experience and giving them the tools to add value as a junior contributor to a software engineering team"
+  },
+  {
+    "id": 2,
+    "question": "What kind of people are you looking for?",
+    "answer": "You are highly motivated to learn and naturally curious. You don't give up easily, ever. You maintain an inner force that drives you to build something beautiful someday which will make an impact on the world. You play well with others and are kind. You often want to help those around you. You're super excited about learning to code."
+  },
+  {
+    "id": 3,
+    "question": "Will I have a chance at succeeding?",
+    "answer": "If you are motivated and enthusiastic about learning technology, then yes, you will. You don't need a special cape or a magic wand to be a programmer. You don't need advanced math or calculus. Programming is a language and a way of thinking. Anybody who wants to learn to program proficiently can do so. If you are accepted, that means we see something special in you. We won't settle for anything less."
+  },
+  {
+    "id": 4,
+    "question": "What Languages do you teach? What will I learn?",
+    "answer": "We give you exposure to the full stack. You’ll learn Javascript, Ruby, HTML/CSS, and SQL. But learning the languages isn’t really that helpful unless you also know the frameworks in which to apply them. You’ll get experience applying the programming languages you learn in frameworks like Rails, Sinatra, Capybara, JQuery, and PostgreSQL"
+  },
+  {
+    "id": 5,
+    "question": "Why should I learn to program?",
+    "answer": "Even non-technical jobs are beginning to require basic programming knowledge. Knowing how to write and think in code is quickly becoming one of the most essential skills in the job market. But the rewards of learning to program go deeper than just getting a better job. Code has innumerable touchpoints in your daily life, and understanding the underlying logic of the programmable world around you means you’ll have a deeper understanding of the everyday magic found in modern life."
+  },
+  {
+    "question": "When does the next program start?",
+    "answer": "We admit on a rolling basis, and there’s an opportunity to start in the program every two weeks. Because we don’t use third-party contractors, we can only enroll a limited set of students every two weeks. This ensures that every student gets the best possible experience. Enrolling now will secure your spot, and your card won’t be charged until the day before the start date.",
+    "id": 6
+  },
+  {
+    "question": "How do I know if I’m ready for Launch Academy Online?",
+    "answer": "Launch Academy Online is a zero prerequisite program. We start you on day 1: we’ll help you get familiar with the command line, and with the very basics of programming. The real key is to ensure you can dedicate the time and energy to your studies. If you’ve been looking for a place to learn, and you have an interest in software development, this is the program for you.",
+    "id": 7
+  },
+  {
+    "question": "How will I learn?",
+    "answer": "We want you to learn by doing, so the majority of the time you spend on each unit will be actually writing code. You’ll be supported by interactive tutorials, video solutions, and a little bit of reading. Through years of refining our on-campus curriculum, we’ve found that the most effective way to learn programming is through a delicate balance of directed teaching and designed struggle. Too much hand-holding and you won’t really internalize the concepts you’re learning; not enough guidance and it’s easy to get discouraged.\n\nAs you work through the curriculum, expect to be challenged. You’ll encounter problems that require you to ‘connect the dots’ between concepts where the answers might not be immediately obvious. But you’re never on your own for too long—help is at your fingertips when you need it.",
+    "id": 8
+  }
+]
