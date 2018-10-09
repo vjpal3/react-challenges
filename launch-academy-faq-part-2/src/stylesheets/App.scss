@@ -1,4 +1,7 @@
 /* YOUR STYLING HERE */
+body {
+  background-color: $light-blue;
+}
 .page {
   background-color: $light-blue;
   padding-bottom: 10rem;
@@ -39,7 +42,38 @@
    }
 }
 
-
 .green {
   color: green;
+}
+
+.navbar {
+  background: #451A3E;
+  padding: 10px;
+  border: 1px #ff9900 solid;
+}
+
+.back-button {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.navbarList, .navbarList > a {
+  color: $blue;
+  padding-right: 15px;
+}
+
+.launcher-list {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.launcher-list a{
+  color: $grey;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.launcher-list a:hover {
+  color: $green;
+  font-weight: bold;
 }
