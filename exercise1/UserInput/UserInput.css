@@ -1,0 +1,10 @@
+.label-text {
+    color: #a80909;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: 2px solid #a80909; 
+    font-size: 1.2em;
+}
