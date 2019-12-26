@@ -1,0 +1,10 @@
+.App {
+  margin: 16px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(7, 33, 117, 0.1);
+  font-size: 1.1em;
+}
