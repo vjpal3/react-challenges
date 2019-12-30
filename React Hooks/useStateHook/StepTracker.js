@@ -11,7 +11,12 @@ const StepTracker = props => {
   return (
     <div>
       <p>You have taken {steps} steps!</p>
-      <button onClick={increment}>Click to take one step!</button>
+      {/* { <button onClick={increment}>Click to take one step!</button> } */}
+      {
+        <button onClick={() => setSteps(prevState => prevState + 1)}>
+          Click to take one step!
+        </button>
+      }
     </div>
   );
 };
