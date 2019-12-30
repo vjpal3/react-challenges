@@ -5,6 +5,9 @@ const RandomList = props => {
   const [items, setItems] = useState([]);
 
   const addItem = () => {
+    //The setItems doesn't 'merge values', but overwrites. 
+    //Using the ES6 spread operator to copy the existing items into the new array,  
+    // and inserting the new item at the end  
     setItems([
       ...items,
       {
