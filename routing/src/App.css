@@ -1,0 +1,13 @@
+.App ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+.App nav li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.active {
+  color: #fa923f;
+}
